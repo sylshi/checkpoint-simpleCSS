@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+   font-family: Lato;
+}
+
+nav {
+   display: flex;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   font-family: Lato;
+   margin-left: 20px;
+   background: #ffffff;
+   font-size: 20px;
+   justify-content: left;
+}
+
+nav li{
+	width:120px;
+	display: inline-block;
+   height: 60px; 
+   text-align: center;
+}
+
+a{
+   display: block;
+   text-decoration: none;
+   margin-top: 20px;
+   color: rgb(45, 48, 247);
+}
+a.link, a.visited{
+   color: rgb(147, 149, 255)
+}
+a:hover{
+   color: rgb(147, 149, 255);
+}
+
+.intro {
+   width: 1000px;
+   margin: 50px;
+   line-height: 32px;
+}
+.intro h1 {
+   font-family:'Times New Roman', Times, serif;
+   font-size: 48px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.intro h2{
+   font-family:'Times New Roman', Times, serif ;
+   font-size: 18px;
+
+}
+
+div.pj {
+   margin:50px;
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+   width: 1000px;
+}
+
+.pj h1 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-top: 100px;
+   line-height: 30px;
+}
+.pj h2 {
+   color:#999;
+   font-size: 16px;
+   margin-top: 20px;
+   line-height: 24px;
+}
+
+
+img {
+   border-radius: 2%;
+   -webkit-transform: scale(1);
+   transform: scale(1);
+   transition: .5s ease-in-out;
+   padding: 20px;
+   display: grid;
+   vertical-align: middle;
+   text-align: center;
+}
+
+img:hover {
+   -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: .5s ease-in-out;
+}
+
+.pj img {
+   width: 500px;
+   height: auto;
+   border: 2px solid rgb(228, 228, 228);
+}
+
+
+/* didi select page */ /* didi select page */
+
+div#headPicture {
+   width: 1000px;
+   margin-left: 50px;
+}
+
+.projectContent{
+   margin-left: 50px;
+   width: 1000px;
+}
+
+.projectContent div{
+   margin-top: 50px;
+}
+
+.projectContent div img{
+   width: 400px;
+}
+.projectContent h1{
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.projectContent h3{
+   color:lightseagreen;
+   font-weight: bold;
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+.projectContent h4{
+   color:black;
+   font-weight: bold;
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+
+.projectContent h2{
+   color:black;
+   font-weight: bold;
+   font-size: 22px;
+   width: 800px;
+   line-height: 32px;
+   
+}
+
+.projectContent .detailPoints div{
+   width: 500px;
+   border: 3px solid rgb(133, 131, 235);
+   padding: 20px;
+   margin-top: 10px;
+}
+
+p.title {
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 10px;  
+   
+}
+
+p.content {
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.painPoint{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 1000px;
+   gap: 12px;
+
+}
+.projectContent .detailPoints img{
+   height: auto;
+   width: 300px;
+   padding: 0px;
+}
+
+/* gallery page */ /* gallery page */
+
+.gallery{
+   margin-bottom: 100px;
+}
+.gallery div {
+   margin-left: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 1200px;
+ }
+
+.gallery div img { 
+   width: 300px; 
+   margin-top: 20px;
+   border: 3px solid rgb(133, 131, 235);
+   background-color: rgb(240, 242, 255); 
+   background-size: cover; 
+   background-position: center; 
+   position: relative; 
+   display: grid; 
+   grid-template-rows: 1fr auto; 
+   break-inside: avoid; 
+}
+
+ .gallery h1{
+   margin: 50px 50px 30px 50px;
+   font-size: 36px;
+   font-weight: bold;
+ }
+ .gallery h2 {
+   margin: 0px 50px 20px 50px;
+   font-size: 18px;
+ }
+
+
+
+ /* resume page */   /* resume page */
+ .about{
+   
+   display: flex;
+   justify-content: center;
+ }
+
+.about div{
+   margin-bottom: 100px;
+   display: block;
+   margin: 0 auto;
+}
+
+.about img{
+   border-radius: 10%;
+   width: 350px;
+   margin-bottom: 100px;
+   margin-top: 100px;
+}
+main.about h3{
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 50px;
+   margin-top: 150px;
+}
+
+main.about p{
+   width: 600px;
+   font-size: 18px;
+   line-height: 30px;
+   margin-bottom: 10px;
+}
+
+footer {
+   padding: 100px;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
